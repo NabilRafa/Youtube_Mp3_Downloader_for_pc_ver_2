@@ -1,0 +1,1 @@
+pyinstaller --onefile --icon=icon.ico Download_Lagu.py
