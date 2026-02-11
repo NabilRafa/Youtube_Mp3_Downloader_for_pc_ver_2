@@ -1,11 +1,6 @@
 # Youtube_Mp3_Downloader_for_pc_ver_2
 
-Gue bakal kasih lo README yang rapi, profesional, dan layak masuk GitHub.
-Ada dua versi: 🇮🇩 Indonesia dan 🇬🇧 English.
-
----
-
-# 🇮🇩 README – Versi Bahasa Indonesia
+### 🇬🇧 README – Indonesia (scroll down for english ver)
 
 # 🎵 YouTube MP3 Downloader (GUI)
 
@@ -135,7 +130,7 @@ Jangan gunakan untuk melanggar hak cipta.
 
 ---
 
-# 🇬🇧 README – English Version
+### 🇬🇧 README – English
 
 # 🎵 YouTube MP3 Downloader (GUI)
 
