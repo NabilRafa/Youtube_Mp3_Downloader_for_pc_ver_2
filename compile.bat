@@ -1,1 +1,7 @@
-pyinstaller --onefile --icon=icon.ico Download_Lagu.py
+pyinstaller ^
+--onefile ^
+--noconsole ^
+--icon=icon.ico ^
+--distpath Compiled ^
+--workpath BuildTemp ^
+Download_Lagu.py
