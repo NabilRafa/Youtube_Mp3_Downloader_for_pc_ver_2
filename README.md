@@ -86,8 +86,6 @@ Gunakan aplikasi ini hanya untuk konten yang memiliki izin untuk diunduh.
 
 ###English
 
-Here is the English version, clean and professional:
-
 ---
 
 # 🎵 YouTube MP3 Downloader (GUI)
