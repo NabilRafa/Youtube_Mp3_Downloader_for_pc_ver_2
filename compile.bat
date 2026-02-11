@@ -6,7 +6,7 @@ pyinstaller ^
 --icon=icon.ico ^
 --distpath Compiled ^
 --workpath Compiled\BuildTemp ^
-Download_Lagu.py
+"Quick_MP3.py"
 
 rmdir /s /q Compiled\BuildTemp
 
