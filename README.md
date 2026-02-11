@@ -1,263 +1,172 @@
 # Youtube_Mp3_Downloader_for_pc_ver_2
 
-### 🇬🇧 README – Indonesia (scroll down for english ver)
+###Indonesia (Scroll for English Ver)
+
+---
 
 # 🎵 YouTube MP3 Downloader (GUI)
 
-Aplikasi sederhana berbasis GUI untuk mengunduh video YouTube dan mengonversinya secara otomatis ke format MP3 (192 kbps).
+Simple desktop app untuk download dan convert video YouTube ke MP3 menggunakan Python + Tkinter + yt-dlp.
+
+## ✨ Features
+
+* GUI sederhana dan ringan
+* Download audio kualitas terbaik
+* Auto convert ke MP3 (192kbps)
+* Bisa pilih folder download
+* Tidak bikin UI freeze (pakai threading)
 
 ---
 
-## ✨ Fitur
+## 🛠 Requirements
 
-* Download video YouTube dengan kualitas audio terbaik
-* Otomatis convert ke MP3 (192 kbps)
-* Tampilan GUI sederhana & mudah digunakan
-* Bisa memilih lokasi penyimpanan file
-* Progress indicator saat download
-* Tidak membuat UI freeze (menggunakan threading)
+* Python 3.10+
+* yt-dlp
+* FFmpeg (WAJIB untuk convert ke MP3)
 
 ---
 
-## 📋 Persyaratan
+## 📦 Installation
 
-### 1️⃣ Python 3.7 atau lebih baru
+### 1️⃣ Install dependency
 
-Download dari:
-[https://www.python.org/downloads/](https://www.python.org/downloads/)
-
-Pastikan centang **“Add Python to PATH”** saat instalasi.
-
----
-
-### 2️⃣ FFmpeg (Wajib untuk konversi MP3)
-
-**Windows:**
-
-1. Download dari [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
-2. Extract file ZIP
-3. Tambahkan folder `bin` ke PATH
-
-Cek instalasi dengan:
-
+```bash
+pip install yt-dlp
 ```
+
+### 2️⃣ Install FFmpeg
+
+Download FFmpeg Windows build:
+[https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
+
+Tambahkan folder `bin` ke Environment Variables (PATH).
+
+Cek instalasi:
+
+```bash
 ffmpeg -version
 ```
 
 ---
 
-### 3️⃣ Library Python
+## ▶️ Run Application
 
-Install yt-dlp:
-
-```
-pip install yt-dlp
+```bash
+python main.py
 ```
 
 ---
 
-## 🚀 Cara Menjalankan
-
-Jalankan file berikut:
+## 📁 Default Output Location
 
 ```
-python youtube_mp3_downloader_gui.py
+Downloads/YouTube_MP3
 ```
 
-Atau di Windows:
+Bisa diganti langsung dari aplikasi.
 
-```
-py youtube_mp3_downloader_gui.py
+---
+
+## ⚠ Notes
+
+* Pastikan koneksi internet stabil
+* Jika error, update yt-dlp:
+
+```bash
+pip install -U yt-dlp
 ```
 
 ---
 
-## 💻 Cara Menggunakan
+## 📜 Disclaimer
 
-1. Masukkan link YouTube ke kolom input
-2. (Opsional) Pilih lokasi download dengan tombol **Browse**
-3. Klik tombol **Download & Convert ke MP3**
-4. Tunggu proses selesai
-5. File MP3 akan tersimpan di folder yang dipilih
-
-Secara default file disimpan di:
-
-```
-C:\Users\[Username]\Downloads\YouTube_MP3
-```
+Gunakan aplikasi ini hanya untuk konten yang memiliki izin untuk diunduh.
 
 ---
 
-## ⚠️ Troubleshooting
+###English
 
-### ❌ yt-dlp belum terinstall
-
-```
-pip install yt-dlp
-```
-
-### ❌ FFmpeg tidak ditemukan
-
-Pastikan sudah install dan ada di PATH.
-
-### ❌ Python tidak dikenali
-
-Gunakan:
-
-```
-py youtube_mp3_downloader_gui.py
-```
+Here is the English version, clean and professional:
 
 ---
-
-## ⚖️ Legal Notice
-
-Program ini ditujukan untuk penggunaan personal dan edukasi.
-Pastikan Anda memiliki hak untuk mengunduh konten yang digunakan.
-Jangan gunakan untuk melanggar hak cipta.
-
----
-
-## 🔧 Technical Details
-
-* Language: Python 3
-* GUI: Tkinter
-* Downloader Engine: yt-dlp
-* Converter: FFmpeg
-* Output Format: MP3 (192 kbps)
-
----
-
----
-
-### 🇬🇧 README – English
 
 # 🎵 YouTube MP3 Downloader (GUI)
 
-A simple GUI-based application to download YouTube videos and automatically convert them into MP3 format (192 kbps).
-
----
+A simple desktop application to download and convert YouTube videos to MP3 using Python + Tkinter + yt-dlp.
 
 ## ✨ Features
 
-* Download YouTube videos with best available audio quality
-* Automatic MP3 conversion (192 kbps)
-* Simple and user-friendly GUI
-* Custom download location selection
-* Download progress indicator
+* Simple and lightweight GUI
+* Downloads best available audio quality
+* Automatically converts to MP3 (192kbps)
+* Customizable download folder
 * Non-blocking UI (uses threading)
 
 ---
 
-## 📋 Requirements
+## 🛠 Requirements
 
-### 1️⃣ Python 3.7 or newer
-
-Download from:
-[https://www.python.org/downloads/](https://www.python.org/downloads/)
-
-Make sure to check **“Add Python to PATH”** during installation.
+* Python 3.10+
+* yt-dlp
+* FFmpeg (REQUIRED for MP3 conversion)
 
 ---
 
-### 2️⃣ FFmpeg (Required for MP3 conversion)
+## 📦 Installation
 
-**Windows:**
+### 1️⃣ Install dependency
 
-1. Download from [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
-2. Extract the ZIP file
-3. Add the `bin` folder to PATH
+```bash
+pip install yt-dlp
+```
+
+### 2️⃣ Install FFmpeg
+
+Download the Windows build of FFmpeg:
+[https://www.gyan.dev/ffmpeg/builds/](https://www.gyan.dev/ffmpeg/builds/)
+
+Add the `bin` folder to your Environment Variables (PATH).
 
 Verify installation:
 
-```
+```bash
 ffmpeg -version
 ```
 
 ---
 
-### 3️⃣ Python Library
+## ▶️ Run Application
 
-Install yt-dlp:
-
-```
-pip install yt-dlp
+```bash
+python main.py
 ```
 
 ---
 
-## 🚀 How to Run
-
-Run:
+## 📁 Default Output Location
 
 ```
-python youtube_mp3_downloader_gui.py
+Downloads/YouTube_MP3
 ```
 
-On Windows you can also use:
+You can change it directly from the application.
 
-```
-py youtube_mp3_downloader_gui.py
+---
+
+## ⚠ Notes
+
+* Make sure your internet connection is stable
+* If you encounter errors, update yt-dlp:
+
+```bash
+pip install -U yt-dlp
 ```
 
 ---
 
-## 💻 How to Use
+## 📜 Disclaimer
 
-1. Paste a valid YouTube link into the input field
-2. (Optional) Choose a download location using the **Browse** button
-3. Click **Download & Convert to MP3**
-4. Wait for the process to complete
-5. The MP3 file will be saved in the selected folder
-
-Default save location:
-
-```
-C:\Users\[Username]\Downloads\YouTube_MP3
-```
+Use this application only for content that you have permission to download.
 
 ---
 
-## ⚠️ Troubleshooting
-
-### ❌ yt-dlp not installed
-
-```
-pip install yt-dlp
-```
-
-### ❌ FFmpeg not found
-
-Make sure FFmpeg is installed and added to PATH.
-
-### ❌ Python not recognized
-
-Try:
-
-```
-py youtube_mp3_downloader_gui.py
-```
-
----
-
-## ⚖️ Legal Notice
-
-This program is intended for personal and educational use only.
-Ensure you have the rights to download the content you use.
-Do not use this software for copyright infringement.
-
----
-
-## 🔧 Technical Details
-
-* Language: Python 3
-* GUI Framework: Tkinter
-* Downloader Engine: yt-dlp
-* Audio Converter: FFmpeg
-* Output Format: MP3 (192 kbps)
-
----
-
-Contact Me : 
-Email : nabilr.athy@gmail.com
-IG : @nabilr.a95
