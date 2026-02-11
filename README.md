@@ -1,6 +1,6 @@
 # Youtube_Mp3_Downloader_for_pc_ver_2
 
-# :indonesia: Indonesia (Scroll for English Ver)
+# 📖 Indonesia (Scroll for English Ver)
 
 ---
 
@@ -84,7 +84,7 @@ Gunakan aplikasi ini hanya untuk konten yang memiliki izin untuk diunduh.
 
 ---
 
-# :gb: English
+# 📖 English
 
 ---
 
