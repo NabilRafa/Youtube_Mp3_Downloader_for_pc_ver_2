@@ -6,6 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore build folder
+Build/
+
+# Icon source file
+icon.psd
+
+# ffmpeg
+ffmpeg.exe
+ffprobe.exe
+
 # Distribution / packaging
 .Python
 build/
