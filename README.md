@@ -18,6 +18,37 @@ Simple desktop app untuk download dan convert video YouTube ke MP3 menggunakan P
 * Bisa pilih folder download
 * Tidak bikin UI freeze (pakai threading)
 
+## 🎧 Supported Audio Formats & Quality
+
+### 🔹 MP3
+
+* Converted using FFmpeg
+* Bitrate: **192 kbps**
+* Compatible with almost all devices
+* Recommended for general use
+
+### 🔹 M4A
+
+* Extracted from best available audio stream
+* Original quality (no re-encode if possible)
+* Smaller file size compared to MP3
+* Recommended for Apple devices
+
+### 🔹 OPUS
+
+* Extracted from best available YouTube audio
+* High efficiency compression
+* Better quality at smaller file size
+* Recommended for modern devices
+
+---
+
+```
+Note:
+Actual quality depends on the original audio quality uploaded to YouTube.
+The app downloads the best available audio stream before conversion.
+```
+
 ---
 
 ## ▶️ Cara run?
@@ -91,6 +122,37 @@ Simple desktop app to download and convert YouTube videos to MP3 using Python + 
 * Auto convert to MP3, M4A, OPUS (192kbps)
 * Choose download folder
 * No UI freeze (using threading)
+
+## 🎧 Supported Audio Formats & Quality
+
+### 🔹 MP3
+
+* Converted using FFmpeg
+* Bitrate: **192 kbps**
+* Compatible with almost all devices
+* Recommended for general use
+
+### 🔹 M4A
+
+* Extracted from best available audio stream
+* Original quality (no re-encode if possible)
+* Smaller file size compared to MP3
+* Recommended for Apple devices
+
+### 🔹 OPUS
+
+* Extracted from best available YouTube audio
+* High efficiency compression
+* Better quality at smaller file size
+* Recommended for modern devices
+
+---
+
+```
+Note:
+Actual quality depends on the original audio quality uploaded to YouTube.
+The app downloads the best available audio stream before conversion.
+```
 
 ---
 
