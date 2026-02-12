@@ -11,4 +11,4 @@ check with this command after install : python --version
 How to install : https://youtu.be/KBnyOH1o5Ms?si=hySG-ngajx22b8wM
 check after install : ffmpeg -version
 
-5. Click compile.bat, after finish .exe will added in Compiled folder.
+5. Click compile.bat, after finish .exe will added in Build folder.
