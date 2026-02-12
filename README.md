@@ -1,5 +1,7 @@
 # Youtube_Mp3_Downloader_for_pc_ver_2
 
+Disclaimer : File ini tidak ada virus apapun, kalau windows mendeteksi sebagai virus cukup matikan antivirus atau pakai versi 'Portable'
+
 # 📖 Indonesia (Scroll for English Ver)
 
 ---
@@ -15,6 +17,65 @@ Simple desktop app untuk download dan convert video YouTube ke MP3 menggunakan P
 * Auto convert ke MP3 (192kbps)
 * Bisa pilih folder download
 * Tidak bikin UI freeze (pakai threading)
+
+---
+
+## ▶️ How to run?
+
+```bash
+python main.py
+```
+
+atau
+
+Cukup klik file .exe nya :)
+
+---
+
+## ▶️ Cara pakai?
+
+### 1️⃣ Download Aplikasi
+
+Download file:
+
+```
+Quick_Audio.rar
+```
+
+### 2️⃣ Jalankan Aplikasi
+
+Double click file `.exe`.
+
+Jika muncul peringatan Windows:
+
+* Klik **More Info**
+* Klik **Run Anyway**
+
+Atau matikan antivirus terlebih dulu
+
+### 3️⃣ Download Audio
+
+1. Paste link YouTube
+2. Pilih lokasi download (opsional)
+3. Klik **Download**
+4. Tunggu sampai selesai
+
+File MP3 akan otomatis tersimpan di folder pilihan Anda.
+
+---
+
+## 📁 Lokasi Default
+
+Jika tidak diubah, file akan tersimpan di:
+
+```
+Downloads\YouTube_Audio
+```
+
+---
+
+
+## FOR DEVELOPMENT ONLY
 
 ---
 
@@ -45,14 +106,6 @@ Cek instalasi:
 
 ```bash
 ffmpeg -version
-```
-
----
-
-## ▶️ Run Application
-
-```bash
-python main.py
 ```
 
 ---
