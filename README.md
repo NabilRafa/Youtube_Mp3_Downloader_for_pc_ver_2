@@ -134,6 +134,19 @@ Simple desktop app to download and convert YouTube videos to MP3 using Python + 
 * Choose download folder
 * No UI freeze (using threading)
 
+## 🌐 Platform Support
+
+✅ Supported
+
+* YouTube (youtube.com)
+* YouTube short links (youtu.be)
+
+❌ Not Supported (For Now)
+
+* YouTube Music
+* Spotify
+* Other streaming platforms
+
 ## 🎧 Supported Audio Formats & Quality
 
 ### 🔹 MP3
